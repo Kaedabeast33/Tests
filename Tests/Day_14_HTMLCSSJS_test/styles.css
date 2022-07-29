@@ -1,0 +1,118 @@
+body{
+	background-color: #ddd;
+}
+#body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family:'Courier New', Courier, monospace
+}
+
+header {
+	height: 40px;
+	width:100vw;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.navBar{
+	border-bottom: 2px solid orange;
+	width:40%;
+	height: 20px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+.banner{
+	height:7rem;
+	width: 100vw;
+	background-color: rgb(230, 181, 90);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+box-shadow: .1rem .3rem .5rem rgba(0,0,0,0.5);
+}
+.banner h1{
+	font-size: 50px;
+	text-shadow: 0.1rem 0.2rem 0.2rem rgba(0,0,0,0.6);
+}
+.cat{
+	margin-left: 55px;
+}
+main{
+	display: flex;
+	justify-content: space-evenly;
+}
+div .collumns{
+	width:35%;
+	height: 20rem;
+	background-color: rgb(90, 90, 90);
+	color:white
+}
+.b-2{
+	height: 3rem;
+	
+	background-color: rgb(230, 181, 90);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+box-shadow: .1rem .3rem .5rem rgba(0,0,0,0.5);
+}
+.buttons{
+	margin-left: 4rem;
+	width:35rem;
+	display: flex;
+	justify-content: space-around;
+	
+
+}
+.button{
+	height:40px;
+	width: 100px;
+	transition: width 2s, height 2s; 
+}
+.button:hover{
+	width:150px;
+	height:120px;
+	
+	background-color: yellow;
+}
+#move{
+	position:absolute;
+}
+.buttonContainer{
+	position: inherit;
+	display: flex;
+	justify-content: center;
+	height:25px;
+	width:190px;
+	background-color: aliceblue;
+}
